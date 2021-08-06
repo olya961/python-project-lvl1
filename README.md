@@ -7,3 +7,5 @@
 [![Actions Status](https://github.com/olya961/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/olya961/python-project-lvl1/actions)
 
 [![asciicast](https://asciinema.org/a/rGLP1jhuVjfayFebYSWWcsDAf)](https://asciinema.org/a/rGLP1jhuVjfayFebYSWWcsDAf)
+
+[![asciicast](https://asciinema.org/a/xIvWZ4ko93Bl3R0JvRINr1MzJ)](https://asciinema.org/a/xIvWZ4ko93Bl3R0JvRINr1MzJ)
