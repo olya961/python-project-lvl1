@@ -2,6 +2,7 @@
 import prompt
 from random import randint, choice
 
+
 def brain_calc():
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
@@ -28,11 +29,11 @@ def brain_calc():
             i = 0
     print('Congratulations, {}!'.format(name))
 
+
 def main():
     print('Welcome to the Brain Games!')
     brain_calc()
 
+
 if __name__ == '__main__':
     main()
-
-

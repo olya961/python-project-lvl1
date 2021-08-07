@@ -1,6 +1,7 @@
 import prompt
 from random import randint
 
+
 def brain_gcd():
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
@@ -25,16 +26,17 @@ def brain_gcd():
         if user_answer == divisor_max:
             print('Correct!')
             i = i + 1
-        else: 
+        else:
             print('{} is wrong answer ;(. Correct answer was {}.'.format(user_answer, divisor_max))
             print("Let's try again, {}!".format(name))
             i = 0
     print('Congratulations, {}!'.format(name))
 
+
 def main():
     print('Welcome to the Brain Games!')
     brain_gcd()
 
+
 if __name__ == '__main__':
     main()
-
