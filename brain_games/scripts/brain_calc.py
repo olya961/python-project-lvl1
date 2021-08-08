@@ -6,6 +6,7 @@ from random import randint, choice
 def brain_calc():
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
+    print("What is the result of the expression?")
     i = 0
     while i < 3:
         a = randint(1, 10)
@@ -17,8 +18,7 @@ def brain_calc():
             string_op = str(a) + ' - ' + str(b)
         else:
             string_op = str(a) + ' * ' + str(b)
-        print('What is the result of the expression?')
-        print('Question: ', string_op)
+        print('Question:', string_op)
         user_answer = prompt.integer('Your answer: ')
         if user_answer == random_op:
             print('Correct!')

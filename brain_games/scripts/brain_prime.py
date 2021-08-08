@@ -22,7 +22,7 @@ def brain_prime():
             check = 'no'
         if a == 1:
             check = 'no'
-        print('Question: ', a)
+        print('Question:', a)
         user_answer = prompt.string('Your answer: ')
         if user_answer == check:
             print('Correct!')

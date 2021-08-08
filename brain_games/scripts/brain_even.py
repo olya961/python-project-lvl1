@@ -13,7 +13,7 @@ def brain_even():
             is_number_even = 'yes'
         else:
             is_number_even = 'no'
-        print('Question: ', random_number)
+        print('Question:', random_number)
         user_answer = prompt.string('Your answer? ')
         if user_answer == is_number_even:
             print('Correct!')

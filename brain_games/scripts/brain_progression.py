@@ -21,7 +21,7 @@ def brain_progression():
                 main_string = main_string + ' ' + str(a)
             a = a + d
             k = k + 1
-        print('Question: ', main_string)
+        print('Question:', main_string)
         user_answer = prompt.integer('Your answer? ')
         if user_answer == missed_a:
             print('Correct!')

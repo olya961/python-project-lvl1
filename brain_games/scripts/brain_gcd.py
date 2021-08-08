@@ -21,7 +21,7 @@ def brain_gcd():
                 divisor = divisor + 1
             else:
                 divisor = divisor + 1
-        print('Question: ', a, b)
+        print('Question:', a, b)
         user_answer = prompt.integer('Your answer: ')
         if user_answer == divisor_max:
             print('Correct!')
