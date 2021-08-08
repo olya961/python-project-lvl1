@@ -29,8 +29,9 @@ def brain_progression():
         else:
             print("{} is wrong answer ;(. Correct answer was {}.".format(user_answer, missed_a))
             print("Let's try again, {}!".format(name))
-            i = 0
-    print('Congratulation, {}!'.format(name))
+            break
+    if i == 3:
+        print('Congratulation, {}!'.format(name))
 
 
 def main():

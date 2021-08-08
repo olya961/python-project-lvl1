@@ -29,8 +29,9 @@ def brain_gcd():
         else:
             print('{} is wrong answer ;(. Correct answer was {}.'.format(user_answer, divisor_max))
             print("Let's try again, {}!".format(name))
-            i = 0
-    print('Congratulations, {}!'.format(name))
+            break
+    if i == 3:
+        print('Congratulations, {}!'.format(name))
 
 
 def main():

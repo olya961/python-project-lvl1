@@ -21,8 +21,9 @@ def brain_even():
         else:
             print(user_answer, " is wrong answer ;(. Correct answer was ", is_number_even, ".")
             print("Let's try again, {}!".format(name))
-            i = 0
-    print('Congratulations, {}!'.format(name))
+            break
+    if i == 3:
+        print('Congratulations, {}!'.format(name))
 
 
 def main():

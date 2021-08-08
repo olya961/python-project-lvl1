@@ -30,8 +30,9 @@ def brain_prime():
         else:
             print('{} is wrong answer ;(. Correct answer was {}.'.format(user_answer, check))
             print("Let's try again, {}!".format(name))
-            i = 0
-    print('Congratulations, {}!'.format(name))
+            break
+    if i == 3:
+        print('Congratulations, {}!'.format(name))
 
 
 def main():
