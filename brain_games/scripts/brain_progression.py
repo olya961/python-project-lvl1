@@ -11,17 +11,18 @@ def brain_progression():
         a = randint(1, 20)
         d = randint(1, 10)
         k = 1
-        random_k = randint(1, 10)
-        main_string = ''
+        random_k = randint(1, 9)
+        print('Question:', end=' ')
         while k <= 10:
             if k == random_k:
-                main_string = main_string + ' ..'
+                print('..', end=' ')
                 missed_a = a
+            elif k == 10:
+                print(a)
             else:
-                main_string = main_string + ' ' + str(a)
+                print(a, end=' ')
             a = a + d
             k = k + 1
-        print('Question:', main_string)
         user_answer = prompt.integer('Your answer? ')
         if user_answer == missed_a:
             print('Correct!')
