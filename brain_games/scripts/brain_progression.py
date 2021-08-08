@@ -12,7 +12,7 @@ def brain_progression():
         d = randint(1, 10)
         k = 1
         random_k = randint(1, 10)
-        main_string = ' '
+        main_string = ''
         while k <= 10:
             if k == random_k:
                 main_string = main_string + ' ..'
