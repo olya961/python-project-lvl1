@@ -32,7 +32,7 @@ def brain_progression():
             print("Let's try again, {}!".format(name))
             break
     if i == 3:
-        print('Congratulations, {}!'.format(name))
+        print('Congratulation, {}!'.format(name))
 
 
 def main():
