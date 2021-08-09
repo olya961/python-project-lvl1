@@ -15,5 +15,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: Lint the flake!
-        run: flake8 .
+        run: poetry run flake8 brain_games
       - run: echo "🍏 This job's status is ${{ job.status }}."
