@@ -15,6 +15,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: Lint the flake!
-        uses: actions/checkout@v2
-        run: make lint
+        run: flake8 .
       - run: echo "🍏 This job's status is ${{ job.status }}."
