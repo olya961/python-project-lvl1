@@ -10,12 +10,8 @@ def brain_gcd():
     while i < 3:
         a = randint(1, 20)
         b = randint(1, 20)
-        if a <= b:
-            min_number = a
-        else:
-            min_number = b
         divisor = 1
-        while divisor <= min_number:
+        while divisor <= a:
             if a % divisor == 0 and b % divisor == 0:
                 divisor_max = divisor
                 divisor = divisor + 1
@@ -27,7 +23,8 @@ def brain_gcd():
             print('Correct!')
             i = i + 1
         else:
-            print('{} is wrong answer ;(. Correct answer was {}.'.format(user_answer, divisor_max))
+            print('{} is wrong answer ;(.'.format(user_answer), end=' ')
+            print('Correct answer was {}.'.format(divisor_max))
             print("Let's try again, {}!".format(name))
             break
     if i == 3:

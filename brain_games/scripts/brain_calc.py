@@ -24,7 +24,8 @@ def brain_calc():
             print('Correct!')
             i = i + 1
         else:
-            print('{} is wrong answer ;(. Correct answer was {}.'.format(user_answer, random_op))
+            print('{} is wrong answer ;(.'.format(user_answer), end=' ')
+            print('Correct answer was {}.'.format(random_op))
             print("Let's try again, {}!".format(name))
             break
     if i == 3:
